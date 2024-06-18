@@ -7,8 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    color: #333;
-    background-color: #f9f9f9;
+    color: white;
+    background-color: black;
 }
 
 .topbar {
@@ -31,17 +31,18 @@ main {
     padding: 2rem;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     max-width: 1200px;
 }
 
 .names-panel {
-    background-color: black;
+    background-color: #111;
     color: white;
     width: 45%;
     height: 60vh;
@@ -69,10 +70,9 @@ main {
 }
 
 footer {
-    background-color: black;
+    background-color: #000;
     color: white;
     text-align: center;
     padding: 1rem;
-    margin-top: auto;
     width: 100%;
 }
