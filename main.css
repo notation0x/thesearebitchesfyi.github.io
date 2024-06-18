@@ -8,7 +8,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: white;
-    justifycontent: center;
+    justify-content: center;
     background-color: black;
 }
 
