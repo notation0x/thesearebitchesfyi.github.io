@@ -63,11 +63,6 @@ body {
     margin: 10px;
 }
 
-
-button:hover {
-    background-color: #ddd;
-}
-
 #search-result {
     margin-top: 10px;
 }
