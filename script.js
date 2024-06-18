@@ -7,9 +7,9 @@ function searchName() {
         .then(data => {
             const names = data.split('\n').map(name => name.trim().toLowerCase());
             if (names.includes(searchTerm)) {
-                document.getElementById('search-result').textContent = `Name '${searchTerm}' found.`;
+                document.getElementById('search-result').textContent = `'${searchTerm}' is a bitch!`;
             } else {
-                document.getElementById('search-result').textContent = `Name '${searchTerm}' not found.`;
+                document.getElementById('search-result').textContent = `'${searchTerm}' isnt a bitch!`;
             }
         })
         .catch(error => {
