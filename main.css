@@ -11,6 +11,14 @@ body {
     background-color: #f9f9f9;
 }
 
+.topbar {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    width: 100%;
+}
+
 header {
     background-color: #4CAF50;
     color: white;
@@ -18,10 +26,18 @@ header {
     text-align: center;
 }
 
+main {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
-    padding: 2rem;
+    width: 100%;
+    max-width: 1200px;
 }
 
 .names-panel {
@@ -53,9 +69,10 @@ header {
 }
 
 footer {
-    background-color: #333;
-    location: bottom;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 1rem;
+    margin-top: auto;
+    width: 100%;
 }
