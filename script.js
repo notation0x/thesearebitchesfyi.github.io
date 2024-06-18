@@ -24,3 +24,10 @@ document.addEventListener('mousemove', (event) => {
     cursorBall.style.left = event.pageX + 'px';
     cursorBall.style.top = event.pageY + 'px';
 });
+
+// Show new content on scroll
+window.addEventListener('scroll', () => {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        document.getElementById('new-content').style.display = 'block';
+    }
+});
