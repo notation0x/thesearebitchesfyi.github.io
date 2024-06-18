@@ -8,6 +8,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     color: white;
+    justifycontent: center;
     background-color: black;
 }
 
