@@ -54,6 +54,7 @@ header {
 
 footer {
     background-color: #333;
+    location: bottom;
     color: white;
     text-align: center;
     padding: 1rem;
